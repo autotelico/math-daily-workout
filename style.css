@@ -1,0 +1,28 @@
+body {
+    background-color: #073B4C;
+}
+
+h1,
+p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+.container {
+    border: solid blue;
+    background: #118AB2;
+    margin: 0 auto;
+    height: 80vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .game-display {
+    border: 5px solid;
+    min-width: 30%;
+    width: 90%;
+    height: 90%;
+}
