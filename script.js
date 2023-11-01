@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
+    const startButton = document.querySelector("#start-button")
 
 
 

@@ -21,6 +21,11 @@ p {
     align-items: center;
 }
 
+.container p {
+    font-size: 1.8em;
+    line-height: 0%;
+}
+
 .container .game-display {
     border: 5px solid;
     min-width: 30%;
@@ -31,6 +36,12 @@ p {
     align-items: center;
 }
 
-button#start {
-
+.container button#start-button {
+    cursor: pointer;
+    padding: 0.6em 1em;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
 }
